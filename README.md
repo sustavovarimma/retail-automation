@@ -114,4 +114,5 @@ schtasks /Run   /TN "RetailLoader"
 
 ## Лицензия
 
-MIT
+
+[MIT](LICENSE)
