@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Логи
+logs/*.log
+!logs/.gitkeep
+
+# Данные (кроме примера)
+data/*.csv
+!data/example.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Секреты
+.env
