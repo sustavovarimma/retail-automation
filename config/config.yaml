@@ -1,0 +1,25 @@
+database:
+  host: localhost
+  port: 5432
+  name: retail
+  user: retail_user
+  password: retail_pass
+
+paths:
+  data_dir: data/
+  log_dir: logs/
+
+generator:
+  shops: [1, 2, 3, 5, 7, 11]
+  cash_per_shop: [1, 2, 3]
+  rows_per_file: [50, 200]
+
+products:
+  - {item: "Порошок Tide",        category: "бытовая химия", price: 599.90}
+  - {item: "Средство для мытья",  category: "бытовая химия", price: 349.50}
+  - {item: "Полотенце махровое",  category: "текстиль",      price: 450.00}
+  - {item: "Набор постельного",   category: "текстиль",      price: 1890.00}
+  - {item: "Кастрюля 3л",         category: "посуда",        price: 1290.00}
+  - {item: "Сковорода 24см",      category: "посуда",        price: 1590.00}
+  - {item: "Кружка керамическая", category: "посуда",        price: 290.00}
+  - {item: "Швабра",              category: "инвентарь",     price: 690.00}
